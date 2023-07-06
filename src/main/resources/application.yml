@@ -1,0 +1,22 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/login
+    username: root
+    password: 123456
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+jwt:
+  header: Authorization
+  secret: d1d4fe82e7d7e6cbe28e20d69b0ec34d861ac6c747b931153462807ef426dcd251771680ef2a3f9d29a40653a24416b44e1d31d36af136773e05d445e4718134
+  expiration: 6000000
+
+
+
+
